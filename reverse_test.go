@@ -33,7 +33,7 @@ func TestStringMandarin(t *testing.T) {
 
 func TestStringThai(t *testing.T) {
 	// The current algorithm doesn't reverse Thai text correctly.
-	// This is because of the diacritical marks in Thai.
+	// This is because of the diacritical marks used in Thai.
 	// See https://stackoverflow.com/a/62743214 for more info.
 	expected := "บัรคีดสัวส"
 	actual := String("สวัสดีครับ")
